@@ -1,0 +1,44 @@
+.right-container{
+    padding: 20px;
+    .header{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 0;
+        border-bottom: 2px solid black;
+        .add-folder{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            background-color: white;
+        }
+
+        .title{
+            font-weight:600;
+            font-size:30px;
+            span{
+                font-weight:400;
+            }
+        }
+    }
+
+    .folder-container{
+        .folder-header{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+            border-bottom: 1px solid black;
+            .folder-header-item{
+                display:flex;
+                gap:10px;
+                align-items: center;
+                button{
+                    background-color: white;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
